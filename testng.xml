@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="MyTestSuite">
+    <test name="MyTestCase">
+        <classes>
+            <class name="com.digital.CoursesPagePOMTest" >
+                <methods>
+                    <include name="CheckBoxAllTestRun"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
