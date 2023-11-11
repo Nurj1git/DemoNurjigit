@@ -2,6 +2,9 @@ package com.digital;
 
 import com.digital.pages.CoursesPagePOM;
 import org.testng.annotations.Test;
+import io.qameta.allure.Allure;
+import org.testng.annotations.Test;
+
 
 public class CoursesPagePOMTest extends BaseTest {
     CoursesPagePOM coursesPage = new CoursesPagePOM();

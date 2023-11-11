@@ -2,10 +2,11 @@
 <suite name="MyTestSuite">
     <test name="MyTestCase">
         <classes>
-            <class name="com.digital.CoursesPagePOMTest" >
+            <class name="com.digital.CoursesPagePOMTest">
                 <methods>
                     <include name="CheckBoxAllTestRun"/>
                 </methods>
+
             </class>
         </classes>
     </test>
